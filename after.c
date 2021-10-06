@@ -26,5 +26,12 @@ int main(int argc, char**argv){
     // for(int i = 0;i<argc;i++){
     //     printf("%s\n",str[i]);
     // }
+    int *a;
+    printf("How many integers\n");
+    scanf("%d",a);
+    printf("%d\n",*a);
+    FILE * fi = fopen("test1.txt","a");
+    fprintf(fi,"hello world");
+    fprintf(fi,"\nhello world");
     return 0;
 }
